@@ -1,3 +1,87 @@
 *{
     box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    display: flex;
+    height: 70px;
+    background-color: #1F2937;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20em 0 20em;
+}
+
+.header a{
+    text-decoration: none;
+    color: white;
+    flex: 1;
+    font-size: 2em;
+    font-weight: 400;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    gap: 12px;
+}
+
+.logo{
+    color: white;
+    flex: 1;
+    font-size: 3em;
+    font-weight: 600;
+}
+
+.hero{
+    height: 600px;
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6em;
+}
+
+.left{
+    color: white;
+    width: 30em;
+    height: 20em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1em;
+}
+
+.left h2{
+    font-size: 350%;
+    font-weight: 600;
+    flex: 1;
+    margin: 0;
+}
+
+.left p{
+    font-size: 220%;
+    font-weight: 200;
+    flex: 1;
+    margin: 0;
+}
+
+.left button{
+    height: 30px;
+    width: 200px;
+    font-size: 150%;
+    font-weight: bold;
+    flex: 1;
+    margin: 0;
+}
+
+.right{
+    background-color: #E5E7EB;
+    height: 20em;
+    width: 40em;
 }
