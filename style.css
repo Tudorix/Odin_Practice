@@ -77,6 +77,10 @@ ul{
     font-size: 150%;
     font-weight: bold;
     flex: 1;
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    border-radius: 5px;
     margin: 0;
 }
 
@@ -84,4 +88,60 @@ ul{
     background-color: #E5E7EB;
     height: 20em;
     width: 40em;
+}
+
+.information{
+    height: 600px;
+    padding-top: 30px;
+}
+
+.information h1{
+    text-align: center;
+    font-size: 300%;
+    font-weight: bold;
+}
+
+.information li{
+    height: 400px;
+    width: 200px;
+}
+
+.information ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+}
+
+.information li div{
+    height: 50%;
+    width: 100%;
+    border-style: solid;
+    border-color: #3882F6;
+    border-width: 5px;
+    border-radius: 5px;
+}
+
+.information li p{
+    font-size: 120%;
+    font-weight: 400;
+    text-align: center;
+}
+
+.quote{
+    height: 500px;
+    background-color: #E5E7EB;
+    padding: 5% 20% 5% 20%;
+}
+
+.quote .text{
+    font-size: 230%;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.quote .owner{
+    font-size: 170%;
+    font-weight: bold;
+    text-align: right;
 }
