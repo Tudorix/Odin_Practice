@@ -145,3 +145,48 @@ ul{
     font-weight: bold;
     text-align: right;
 }
+
+.join{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.join .box{
+    height: 60%;
+    width: 80%;
+    background-color: #3882F6;
+    border-radius: 15px;
+    padding-left: 160px;
+    padding-right: 160px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 200px;
+    color: white; 
+}
+
+.join .box a{
+    height: 23%;
+    width: 30%;
+    background-color: #3882F6;
+    border-style: solid;
+    border-color: white;
+    border-radius: 15px; 
+    border-width: 5px; 
+    color: white;
+    font-size: 150%;  
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    transition: 0.3s;
+}
+
+.join .box a:hover{
+    background-color:#1F2937;
+    transition: 0.3s;
+}
