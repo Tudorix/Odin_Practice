@@ -190,3 +190,12 @@ ul{
     background-color:#1F2937;
     transition: 0.3s;
 }
+
+.footer{
+    height: 100px;
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
